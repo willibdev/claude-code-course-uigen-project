@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright",
+      "Bash(npx vitest:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm install:*)",
+      "Bash(npm show:*)",
+      "Bash(npm:*)",
+      "WebFetch(domain:sdk.vercel.ai)",
+      "WebFetch(domain:ai-sdk.dev)"
+    ],
+    "deny": []
+  }
+}
